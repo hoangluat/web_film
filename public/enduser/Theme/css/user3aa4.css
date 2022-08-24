@@ -1,0 +1,116 @@
+body,
+html {
+    background: #000;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 0 0 1000px #fff inset;
+    -webkit-text-fill-color: #cecece !important;
+}
+.has-error .input-group-addon {
+    color: #ff241f !important;
+    background-color: #2a2a2a !important;
+    border-color: #ff241f !important;
+}
+.form-row input.error {
+    text-align: left !important;
+}
+.login-register-container {
+    background: var(--color-bilu-b1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.login-register-container .header {
+    background: var(--color-bilu-t1);
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.login-register-container .form {
+    padding: 25px;
+}
+.login-register-container .form .form-row {
+    margin: 0 auto 15px;
+    width: 300px;
+    color: #ccc;
+}
+.login-register-container label {
+}
+.login-register-container label.error,
+.login-register-container div.errorMessage {
+    font-weight: 400;
+    color: red;
+}
+.login-register-container select,
+.login-register-container input {
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+.login-register-container .input {
+    padding: 6px;
+    background: #fff;
+    border-radius: 5px;
+    color: #000;
+}
+.login-register-container .input .fa {
+    width: 18px;
+    color: var(--color-bilu-v3);
+}
+.login-register-container .input .fa-lock {
+    font-size: 17px;
+}
+#register-form .btn-register,
+#login-form .btn-login {
+    padding: 10px 18px;
+    font-weight: 700;
+    background: #666;
+    background: linear-gradient(var(--color-bilu-v1), var(--color-bilu-v3));
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+#user .left-content {
+    background: #2a2a2a;
+}
+#user .confirm-city {
+    margin-bottom: 20px;
+}
+.confirm-city .form .form-row {
+    width: auto;
+}
+.confirm-city .form .form-row input {
+    display: block;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.confirm-city .form .form-row .btn-success {
+    padding: 10px 18px;
+    font-weight: 700;
+    background: #666;
+    background: linear-gradient(#666, #333);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 100px;
+    margin: 0 auto;
+}
+.confirm-city #captcha {
+    float: left;
+    width: 80px;
+    margin: 5px 10px 0 0;
+    padding: 10px;
+}
+#login-form input::placeholder,
+#register-form input::placeholder {
+    color: #888;
+}
